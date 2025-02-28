@@ -17,6 +17,7 @@ h1, h2, h3, h4 {
 }
 
 li, ul, ol {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -46,14 +47,15 @@ body {
     background-position: center;
     background-size: 100%;
     width: 100%;
-    height: 250px;
-  
+    height: 250px; 
 }
 
+
+/*
 .about {
 
 }
-
+*/
 
 .skills {
     background-color: #48628B;
@@ -61,13 +63,42 @@ body {
 
 }
 
-.FAQ {
+/* .FAQ {
 
+}
+*/
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto;
 }
 
 .commissions {
     background-color: #48628B;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
 
+div.pair {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-bottom: 51px;
+}
+
+div.example_images {
+    width: 600px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+div.description {
+    padding: 10px;
 }
 
 .copyright {
