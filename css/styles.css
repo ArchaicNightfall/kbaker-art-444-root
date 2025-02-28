@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*css document*/
 
-nav{
+nav {
     background-color: #F7BC6E;
     padding-top: 44px;
     padding-bottom: 44px;
@@ -10,11 +10,13 @@ nav{
     text-align: center;
 }
 
-body{
+
+body {
     background-color: #ffffff;
 }
 
 .header {
+    background-image: url="..images/";
 
 }
 
@@ -22,7 +24,9 @@ body{
 
 }
 
+
 .skills {
+    background-color: #48628B;
 
 }
 
@@ -31,6 +35,15 @@ body{
 }
 
 .commissions {
-    
+    background-color: #48628B;
+
 }
 
+.copyright {
+    background-color: #F7BC6E;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    padding-left: 20px;
+    position: bottom;
+    text-align: center;
+}
