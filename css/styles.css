@@ -10,14 +10,44 @@ nav {
     text-align: center;
 }
 
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+
+}
+
+li, ul, ol {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.linebreak {
+    background-color: #F7BC6E;
+    width: 100%; 
+    height: 30px;
+   
 }
 
 .header {
-    background-image: url="..images/";
-
+    color: #48628B;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-image: url(../images/true_blue_short.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 250px;
+  
 }
 
 .about {
@@ -27,6 +57,7 @@ body {
 
 .skills {
     background-color: #48628B;
+
 
 }
 
