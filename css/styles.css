@@ -81,6 +81,13 @@ body {
     padding-bottom: 125px;
 }
 
+.picture {
+    width:100%;
+    height:350px;
+    object-fit: cover;
+}
+
+/* This is for how the gallery images display, and their padding*/
 div.pair {
     display: flex;
     flex-direction: row;
@@ -90,13 +97,15 @@ div.pair {
     padding-bottom: 51px;
 }
 
+/* This section controls the height of the border and color around all the images*/
 div.example_images {
     width: 600px;
-    height: 530px;
-    background-color: white;
+    height: 530px;  
+    background-color: rgba(217, 217, 217, 0.35);
     margin-bottom: 25px;
 }
 
+/* This section adds padding around all the text elements in the description*/
 div.description {
     padding: 10px;
 }
