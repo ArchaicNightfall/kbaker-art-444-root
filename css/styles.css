@@ -50,23 +50,28 @@ body {
     height: 250px; 
 }
 
-
-/*
-.about {
-
-}
-*/
-
 .skills {
     background-color: #48628B;
 
 
 }
 
-/* .FAQ {
 
+.dropdown_toggle {
+    border-radius: 0, 10, 10, 0;
+    background-color: #48628B;
+    font-size: 32px;
+    width: 672px;
+    color: #ffffff;
+    padding: 20px;
 }
-*/
+
+.dropdown_container {
+    background-color: #FFDFB5;
+    width: 672px;
+    padding: 20px;
+    padding-bottom: 17px;
+}
 
 .container {
     width: 100%;
