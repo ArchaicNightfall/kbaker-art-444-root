@@ -12,7 +12,8 @@ nav {
 
 h3 {
     margin: 0;
-    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: center;
     font-size: 48px;
 }
@@ -29,12 +30,23 @@ li, ul, ol {
     padding: 0;
 }
 
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: auto;
+    padding: 44px;
+  }
+  
+  a:link:active, a:visited:active {
+    color: (internal value);
+  }
+
 body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
-
 
 .centered_h3 {
     align-text: center;
@@ -61,6 +73,32 @@ body {
     background-size: 100%;
     width: auto;
     height: 515px; 
+}
+
+.header_h1 {
+    font-size: 48px;
+}
+
+.header_h2 {
+    font-size: 24px;
+}
+
+/* makes the header content not stick to the top */
+.float_info {
+    padding-top: 120px;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px 150px 250px;
+}
+
+.about_text {
+    font-size: 20px;
+    width: 350px;
+    margin-top: 90px;
+    margin-left: 45px;
 }
 
 
@@ -113,12 +151,14 @@ body {
 
 }
 
+/*
 .container {
     width: 100%;
     max-width: 960px;
     text-align: left;
     margin: 0 auto;
 }
+*/
 
 .commissions {
     background-color: #48628B;
@@ -148,6 +188,12 @@ div.example_images {
     height: 530px;  
     background-color: rgba(217, 217, 217, 0.35);
     margin-bottom: 25px;
+}
+
+/* This controls the size of the title */
+.gallery_title {
+    font-size: 36px;
+    color: #ffffff;
 }
 
 /* This section adds padding around all the text elements in the description*/
