@@ -10,7 +10,14 @@ nav {
     text-align: center;
 }
 
-h1, h2, h3, h4 {
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 48px;
+}
+
+h1, h2, h4 {
     margin: 0;
     padding: 0;
 
@@ -26,6 +33,12 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+}
+
+
+.centered_h3 {
+    align-text: center;
+    text-size: 48px;
 }
 
 .linebreak {
@@ -47,11 +60,9 @@ body {
     background-position: center;
     background-size: 100%;
     width: auto;
-    height: 250px; 
+    height: 515px; 
 }
 
-/* .float_info {
-} */
 
 .skills {
     background-color: #48628B;
@@ -62,6 +73,8 @@ body {
 }
 
 .skill_box {
+    display: flex;
+    flex-direction: column;
     width: 180px;
     height: 245px;
     border-radius: 30px;
@@ -71,24 +84,33 @@ body {
 
 
 .dropdown_toggle {
-    display: flex;
-    flex-direction: column;
     background-color: #48628B;
     font-size: 32px;
     width: 672px;
     color: #ffffff;
     padding: 20px;
-    /*border-radius */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     align-items: center;
 }
 
+/* this controls the appearance of the faq lower container */
 .dropdown_container {
     background-color: #FFDFB5;
     width: 672px;
+    height: 170px;
     padding: 20px;
     padding-bottom: 17px;
     margin-bottom: 15px;
-    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* this controls the text in the FAQ container */
+.faq_text {
+    font-size: 20px;
+    align: center;
+
 }
 
 .container {
