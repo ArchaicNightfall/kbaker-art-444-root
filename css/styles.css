@@ -46,24 +46,40 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    width: 100%;
+    width: auto;
     height: 250px; 
 }
 
+/* .float_info {
+} */
+
 .skills {
     background-color: #48628B;
+}
 
+.skill_column {
+   padding: 20px;
+}
 
+.skill_box {
+    width: 180px;
+    height: 245px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-align: center;
 }
 
 
 .dropdown_toggle {
-    border-radius: 0, 10, 10, 0;
+    display: flex;
+    flex-direction: column;
     background-color: #48628B;
     font-size: 32px;
     width: 672px;
     color: #ffffff;
     padding: 20px;
+    /*border-radius */
+    align-items: center;
 }
 
 .dropdown_container {
@@ -71,6 +87,8 @@ body {
     width: 672px;
     padding: 20px;
     padding-bottom: 17px;
+    margin-bottom: 15px;
+    align-items: center;
 }
 
 .container {
