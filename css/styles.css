@@ -140,8 +140,15 @@ body {
     width: 75px;
 }
 
+.h5_skill {
+    font-size: 24px;
+}
+
 .skill_column {
-   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   gap: 65px;
+   padding: 80px 0 80px 0;
 }
 
 .skill_box {
