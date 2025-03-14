@@ -117,6 +117,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .about_image {
@@ -150,12 +151,20 @@ body {
     padding: 10px 0 10px 0;
 }
 
+.skill_pair {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+
 .skill_column {
    display: flex;
    flex-direction: row;
    padding-top: 40px;
    padding-bottom: 40px;
    justify-content: center;
+   gap: 15px;
 }
 
 .skill_box {
@@ -203,14 +212,6 @@ body {
 
 }
 
-/*
-.container {
-    width: 100%;
-    max-width: 960px;
-    text-align: left;
-    margin: 0 auto;
-}
-*/
 
 .commissions {
     background-color: #48628B;
@@ -229,9 +230,8 @@ div.pair {
     display: flex;
     flex-direction: row;
     gap: 34px;
-    padding-left: 98px;
-    padding-right: 98px;
     padding-bottom: 50px;
+    justify-content: center;
 }
 
 /* This section controls the height of the border and color around all the images*/
