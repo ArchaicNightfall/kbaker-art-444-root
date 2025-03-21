@@ -73,12 +73,19 @@ body {
     height: 515px; 
 }
 
+.header_text {
+    animation-name: fade_in;
+    animation-duration: 3s;
+}
+
 .header_image {
-    width:170px;
-    height:170px;
-    border-radius:50%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
     border: 4px solid#F7BC6E;
     box-shadow: 0px 8px 4px 0px rgba(44, 22, 115, 0.25);
+    animation-name: fade_in;
+    animation-duration: 1.5s;
 }
 
 .header_h1 {
@@ -275,4 +282,9 @@ div.description {
     padding-left: 20px;
     position: bottom;
     text-align: center;
+}
+
+@keyframes fade_in {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
