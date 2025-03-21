@@ -316,7 +316,8 @@
        gap: 20px;
        font-size: 14px;
     }
-    
+
+/* This is responsible for the white border that goes around the text and SVGs*/
     .skill_box {
         display: flex;
         flex-direction: column;
@@ -327,7 +328,7 @@
         margin-right: auto;
     }
     
-    
+/* This is the toggle for the question, and appears as a bar when active*/
     .dropdown_toggle {
         font-size: 16px;
         width: 350px;
