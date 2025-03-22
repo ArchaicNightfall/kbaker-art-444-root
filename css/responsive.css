@@ -317,7 +317,7 @@
        font-size: 14px;
     }
 
-/* This is responsible for the white border that goes around the text and SVGs*/
+/* This is responsible for the white border that goes around the text and*/
     .skill_box {
         display: flex;
         flex-direction: column;
