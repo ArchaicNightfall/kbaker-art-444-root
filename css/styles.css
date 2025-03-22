@@ -36,6 +36,11 @@ a:link, a:visited {
     padding: 44px;
   }
   
+  a:hover {
+    color: #ffffff;
+    transition-duration: .3s;
+  }
+
   a:link:active, a:visited:active {
     color: (internal value);
   }
