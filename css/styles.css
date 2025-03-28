@@ -207,7 +207,7 @@ body {
 .dropdown_container {
     background-color: #FFDFB5;
     max-width: 672px;
-    min-height: 150px;
+    height: auto;
     padding: 20px;
     margin-bottom: 40px;
     border-bottom-left-radius: 20px;

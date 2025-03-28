@@ -132,7 +132,7 @@
     /* this controls the appearance of the faq lower container */
     .dropdown_container {
         width: 520px;
-        height: 100px;
+        height: auto;
         margin-right: auto;
         margin-left: auto;
     }
@@ -341,7 +341,7 @@
     /* this controls the appearance of the faq lower container */
     .dropdown_container {
         width: 350px;
-        height: 100px;
+        height: auto;
         margin-right: auto;
         margin-left: auto;
     }
