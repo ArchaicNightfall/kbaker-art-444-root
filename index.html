@@ -6,22 +6,24 @@
 <link rel="stylesheet" href="css/responsive.css">
 </head>
 
+<div><img src="./images/hamburger.svg" class="mobile_menu_burger"></div>
+
 <body>
     <!--Links Section-->
     <section id="navigation" class="navigation">
        <nav>
-            <a href="#header">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#FAQ">FAQ</a>
-            <a href="#commissions">Commissions</a>
+            <a class="link_hide" href="#header">Home</a>
+            <a class="link_hide" href="#about">About</a>
+            <a class="link_hide" href="#skills">Skills</a>
+            <a class="link_hide" href="#FAQ">FAQ</a>
+            <a class="link_hide" href="#commissions">Commissions</a>
        </nav>
     </section>
 </class>
 
-<div onclick="darkMode()" id="dark_mode_button" class="dark-mode-button"></div>
-<div onclick="myMenu()" class="mobile_menu_close" id="menu_button"></div>
-<div id="mymenu" class="mobile-menu-dropdown">
+<div onclick="myMenu()"class="mobile_menu_burger" id="menu_button"></div>
+
+<div id="myMenu" class="mobile-menu-dropdown">
     <ul class="menu_dropdown_column">
         <a onclick="myMenu()" class="dropdown_link" href="#header">Home</a>
         <a onclick="myMenu()" class="dropdown_link" href="#about">About</a>
@@ -29,7 +31,6 @@
         <a onclick="myMenu()" class="dropdown_link" href="#FAQ">FAQ</a>
         <a onclick="myMenu()" class="dropdown_link" href="#commissions">Commissions</a>
     </ul>
-
 </div>
 
 
