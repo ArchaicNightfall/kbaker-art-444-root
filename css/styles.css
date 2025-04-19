@@ -80,6 +80,7 @@ body {
 
 .mobile_tablet_menu {
     background-color: #FFDFB5;
+    display: none;
 }
 
 .mobile_tablet_menu a:hover {

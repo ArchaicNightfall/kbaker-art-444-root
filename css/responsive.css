@@ -11,9 +11,10 @@
         z-index: 100
     }
 
-    .dropdown_link {
-        display: inline-block;
-        font-size: 20px;
+    .mobile_tablet_menu {
+        background-color: #FFDFB5;
+        padding: 20px;
+        display: block;
     }
 
     .navigation {
