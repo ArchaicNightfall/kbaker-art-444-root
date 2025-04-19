@@ -14,7 +14,8 @@
     .mobile_tablet_menu {
         background-color: #FFDFB5;
         padding: 20px;
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .navigation {
