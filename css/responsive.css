@@ -11,6 +11,11 @@
         z-index: 100
     }
 
+    .dropdown_link {
+        display: inline-block;
+        font-size: 20px;
+    }
+
     .navigation {
     position: fixed;
     width: 100%;
@@ -26,9 +31,6 @@
         display: none;
     }
 
-    .dropdown_link {
-        font-size: 20px;
-    }
 
     .centered_h3 {
         font-size: 20px;
@@ -227,6 +229,18 @@
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 478px) {
+
+    .mobile_menu_burger {
+        display: inline-block;
+        position: fixed;
+        padding-top: 30px;
+        z-index: 100
+    }
+
+    .dropdown_link {
+        display: inline-block;
+        font-size: 16px;
+    }
 
 
     a:link, a:visited {
