@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/responsive.css">
+<script src="script.js"></script> 
 </head>
 
-<div><img src="./images/hamburger.svg" class="mobile_menu_burger"></div>
+<!--<div><img src="./images/hamburger.svg" class="mobile_menu_burger"></div>-->
 
 <body>
     <!--Links Section-->
@@ -21,18 +22,16 @@
     </section>
 </class>
 
-<div onclick="myMenu()"class="mobile_menu_burger" id="menu_button"></div>
-
-<div id="myMenu" class="mobile-menu-dropdown">
-    <ul class="menu_dropdown_column">
-        <a onclick="myMenu()" class="dropdown_link" href="#header">Home</a>
-        <a onclick="myMenu()" class="dropdown_link" href="#about">About</a>
-        <a onclick="myMenu()" class="dropdown_link" href="#skills">Skills</a>
-        <a onclick="myMenu()" class="dropdown_link" href="#FAQ">FAQ</a>
-        <a onclick="myMenu()" class="dropdown_link" href="#commissions">Commissions</a>
+<div class="mobile_tablet_dropdown">
+    <div class="mobile_menu_burger"><img src="./images/hamburger.svg" class="mobile_menu_burger"></div>
+    <ul class="mobile_tablet_menu">
+        <li><a class="mobile_tablet_link" href="#header">Home</a></li>
+        <li><a class="mobile_tablet_link" href="#about">About</a></li>
+        <li><a class="mobile_tablet_link" href="#skills">Skills</a></li>
+        <li><a class="mobile_tablet_link" href="#FAQ">FAQ</a></li>
+        <li><a class="mobile_tablet_link" href="#commissions">Commissions</a></li>
     </ul>
 </div>
-
 
     <!--Header-->
     <section id="header" class="header">
