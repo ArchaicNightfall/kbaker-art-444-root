@@ -4,6 +4,10 @@
 /* TABLET VIEW */
 @media only screen and (max-width: 992px) {
 
+    .navigation {
+        display: none;
+    }
+
     .mobile_menu_burger {
         display: inline-block;
         position: fixed;
@@ -12,7 +16,6 @@
     }
 
     .mobile_tablet_menu {
-        background-color: #FFDFB5;
         padding: 20px;
         display: flex;
         flex-direction: column;
