@@ -73,11 +73,6 @@ body {
     transition: 0.3s;
 }
 
-/*this will be a jscript */
-.mobile_menu_burger-rotate {
-    transform: rotate(180deg);
-}
-
 .mobile_tablet_menu {
     background-color: #F7BC6E;
     display: none;
@@ -92,6 +87,47 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.reveal_mtm {
+    display: flex !important;
+    position: fixed;
+    width: 100%;
+}
+
+.day_night_toggle {
+    background-color: #ffffff;
+    background-image: url(../images/moon_stars.svg);
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* .n_switch {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: right;
+    right: 85px;
+    padding: 5px;
+    margin-top: 10px;
+    background: #452DF6;
+    border-radius: 40px;
+}
+
+.d_switch {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: right;
+    right: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    background: #F7BC6E;
+    border-radius: 40px;
+}
+*/
 
 .header {
     color: #48628B;

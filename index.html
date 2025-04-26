@@ -4,10 +4,16 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/responsive.css">
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </head>
 
 <body>
+
+<div class="day_night_toggle">
+        <img src="images/moon_stars.svg" class="n_switch">
+        <img src="images/sun_icon.svg" class="d_switch">
+</div>
+
     <!--Links Section-->
     <section id="navigation" class="navigation">
        <nav>
@@ -21,8 +27,8 @@
 </class>
 
 <div class="mobile_tablet_dropdown">
-    <div onclick="" class="mobile_menu_burger"><img src="./images/hamburger.svg" class="mobile_menu_burger"></div>
-    <ul class="mobile_tablet_menu">
+    <div onclick="menuOpen()" class="mobile_menu_burger"><img src="./images/hamburger.svg" class="mobile_menu_burger"></div>
+    <ul id="mobile_menu" class="mobile_tablet_menu">
         <a class="mobile_tablet_link link_padding" href="#header">Home</a></li>
         <a class="mobile_tablet_link link_padding" href="#about">About</a></li>
         <a class="mobile_tablet_link link_padding" href="#skills">Skills</a></li>
@@ -31,7 +37,6 @@
     </ul>
 </div>
 
-<div class="day_night_toggle"></div>
 
     <!--Header-->
     <section id="header" class="header">
