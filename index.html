@@ -2,12 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css" id="theme">
 <link rel="stylesheet" href="css/responsive.css">
 <script src="js/script.js"></script>
 </head>
 
 <body>
+
+<button onclick="darkMode()">Toggle Day Night</button>
 
 <!--<div class="day_night_toggle">
     <div onclick="darkmode()">
@@ -363,5 +365,14 @@
         </copyright>
     </section>
 
+<script>
+   
+   var DarkMode = new DarkMode({
+    dark: "css/dark_mode.css",
+    startAt: '18:00',
+    endAt: '06:00'
+});
+
+</script>
 </body>
 </html>
