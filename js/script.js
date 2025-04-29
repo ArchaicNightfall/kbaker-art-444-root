@@ -3,5 +3,5 @@ function menuOpen() {
 }
 
 function darkMode() {
-    document.getElementById("").classList.toggle("")
+    document.getElementById("darkmode").classList.toggle("darkmode_active")
 }

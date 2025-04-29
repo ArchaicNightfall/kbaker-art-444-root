@@ -96,22 +96,25 @@ body {
 
 .day_night_toggle {
     background-color: #ffffff;
-    background-image: url(../images/moon_stars.svg);
-    padding: 20px;
-    display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    right: 30px;
+    top: 20px;
+    padding: 5px;
+    margin-top: 10px;
+} 
 
-/* .n_switch {
+.n_switch {
     width: 30px;
     height: 30px;
     position: fixed;
     top: right;
     right: 85px;
     padding: 5px;
-    margin-top: 10px;
     background: #452DF6;
     border-radius: 40px;
 }
@@ -121,13 +124,12 @@ body {
     height: 30px;
     position: fixed;
     top: right;
-    right: 40px;
+    right: 38px;
     padding: 5px;
-    margin-top: 10px;
     background: #F7BC6E;
     border-radius: 40px;
 }
-*/
+
 
 .header {
     color: #48628B;
@@ -364,13 +366,13 @@ div.description {
 }
 
 
-/* Start Dark Mode Section
+/* Start Dark Mode Section */
 
-nav {
+nav.darkmode {
     background-color: #3D527A;
 }
 
-a:link, a:visited {
+a.darkmode:link, a.darkmode:visited {
     color: #ffffff;
     text-decoration: none;
     font-size: 24px;
@@ -378,7 +380,7 @@ a:link, a:visited {
     padding: 44px;
   }
   
-  a:hover {
+  a.darkmode:hover {
     color: #F7BC6E;
     transition-duration: .3s;
   }
@@ -387,34 +389,34 @@ a:link, a:visited {
     color: (internal value);
   }
 
-body {
+body.darkmode {
     background-color: #15294F;
 }
 
 
-.linebreak {
+.linebreak_darkmode {
     background-color: #6493EA;
     width: 100%; 
     height: 30px;
    
 }
 
-.mobile_tablet_menu {
+.mobile_tablet_menu_darkmode {
     background-color: #FFDFB5;
     display: none;
 }
 
-.mobile_tablet_menu a:hover {
+.mobile_tablet_menu_darkmode a:hover {
     transition: none;
 }
 
-.link_padding {
+.link_padding_darkmode  {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.dm_header {
+.header_darkmode {
     color: #48628B;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(44, 22, 115, 0.25);
@@ -429,12 +431,12 @@ body {
     height: 515px; 
 }
 
-.header_text {
+.header_text_darkmode  {
     animation-name: fade_in;
     animation-duration: 2s;
 }
 
-.header_image {
+.header_image_darkmode  {
     width: 170px;
     height: 170px;
     border-radius: 50%;
@@ -445,85 +447,84 @@ body {
     color:#ffffff;
 }
 
-.about_text {
+.about_text_darkmode  {
     color:#ffffff;
 }
 
-.h_spacing {
+.h_spacing_darkmode  {
     color: #ffffff;
 }
 
 
-.header_h3 {
+.header_h3_darkmode  {
     color: #ffffff;
 }
 
 
-.header_h4 {
+.header_h4_darkmode  {
     color: #FFffff;
 }
 
-.about_image {
+.about_image_darkmode  {
     width:325px;
     height:325px;
     border-radius:50%;
     border: 5px solid #ffffff;
 }
 
-.skills {
+.skills_darkmode  {
     background-color: #38302B;
 }
 
 
-.skill_box {
+.skill_box_darkmode  {
     background-color: #000000;
     color:#ffffff;
 }
 
-/* faq dropdown toggle 
 
-.dropdown_toggle {
+.dropdown_toggle_darkmode  {
     background-color: #F7BC6E;
     color: #3D527A;
 }
 
-.dropdown_container {
+.dropdown_container_darkmode  {
     background-color: #000000;
     color: #ffffff;
 }
 
 
-.commissions {
+.commissions_darkmode  {
     background-color: #38302B;
 }
 
 
-div.example_images {
+div.example_images_darkmode  {
     background-color: #000000;
 }
 
-.gallery_title {
+.gallery_title_darkmode  {
     color: #ffffff;
 }
 
 
-.gallery_dimen {
+.gallery_dimen_darkmode  {
     color: #ffffff;
 }
 
 
-.gallery_desc {
+.gallery_desc_darkmode  {
     color: #ffffff;
 }
 
 
-div.description {
+div.description_darkmode  {
     padding: 10px;
 }
 
-.copyright {
+.copyright_darkmode  {
     background-color: #3D527A;
     color: #ffffff;
 }
 
- End Dark Mode Section */
+ /* End Dark Mode Section */
