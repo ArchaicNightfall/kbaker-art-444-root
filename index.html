@@ -366,13 +366,25 @@
     </section>
 
 <script>
+
+    //darkmode
+function darkMode() {
+    // Select the <link> element
+    let theme = document.getElementById("theme");
+
+    // Toggle between light.css and dark.css
+    if (theme.getAttribute('href') == 'css/styles.css') {
+        theme.setAttribute('href', 'css/dark_mode.css');
+    } else {
+        theme.setAttribute('href', 'css/styles.css');
+    }
+}
    
    var DarkMode = new DarkMode({
     dark: "css/dark_mode.css",
     startAt: '18:00',
     endAt: '06:00'
 });
-
 </script>
 </body>
 </html>
