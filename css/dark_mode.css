@@ -97,64 +97,37 @@ body {
 
 button {
     background-color: #ffffff;
-    width: 200px;
-    height: 40px;
+    width: 100px;
+    height: 50px;
     position: fixed;
     border-radius: 25px;
     border-style: solid;
     border-color: #15294F;
     border-width: 2px;
-    right: 30px;
+    right: 90px;
     top: 20px;
     padding: 5px;
     margin-top: 10px;
 } 
 
-.night_toggle {
-    background-color: #ffffff;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 2px;
-    right: 140px;
-    top: 20px;
-    padding: 5px;
-    margin-top: 10px;
-} 
-
-.day_toggle {
-    background-color: #ffffff;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 2px;
-    right: 80px;
-    top: 20px;
-    padding: 5px;
-    margin-top: 10px;
-} 
-
-.n_switch { 
+.n_switch {
     width: 30px;
     height: 30px;
     position: fixed;
-    top: right;
-    right: 147px;
+    top: 35px;
+    right: 95px;
     padding: 5px;
-    background: #452DF6;
-    border-radius: 40px;
+    background:#452DF6;
+    border-radius:40px;
 }
 
 .d_switch {
+    display: none;
     width: 30px;
     height: 30px;
     position: fixed;
-    top: right;
-    right: 87px;
+    top: 35px;
+    right: 145px;
     padding: 5px;
     background: #F7BC6E;
     border-radius: 40px;

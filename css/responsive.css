@@ -21,6 +21,12 @@
         flex-direction: column;
     }
 
+    .reveal_mtm {
+        display: flex !important;
+        position: fixed;
+        width: 100%;
+    }
+
     .navigation {
     position: fixed;
     width: 100%;
@@ -239,6 +245,12 @@
         position: fixed;
         padding-top: 10px;
         z-index: 100
+    }
+
+    .reveal_mtm {
+        display: flex !important;
+        position: fixed;
+        width: 100%;
     }
 
 
