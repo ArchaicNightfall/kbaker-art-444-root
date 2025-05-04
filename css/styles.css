@@ -64,8 +64,8 @@ body {
 }
 
 .mobile_menu_burger {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     position: fixed;
     top: left;
     left: 40px;
@@ -89,7 +89,7 @@ body {
 }
 
 .reveal_mtm {
-    display: flex !important;
+    display: none;
     position: fixed;
     width: 100%;
 }
@@ -107,6 +107,7 @@ button {
     top: 20px;
     padding: 5px;
     margin-top: 10px;
+    z-index: 100;
 } 
 
  .n_switch {
@@ -119,6 +120,7 @@ button {
     padding: 5px;
     background:#452DF6;
     border-radius:40px;
+    z-index: 100;
 }
 
 .d_switch {
@@ -130,8 +132,8 @@ button {
     padding: 5px;
     background: #F7BC6E;
     border-radius: 40px;
+    z-index: 100;
 }
-
 
 
 .header {
@@ -147,6 +149,7 @@ button {
     background-size: 100%;
     width: auto;
     height: 515px; 
+    z-index: 99;
 }
 
 .header_text {
@@ -264,12 +267,13 @@ button {
 .dropdown_toggle {
     background-color: #48628B;
     font-size: 32px;
-    max-width: 672px;
+    max-width: 650px;
     min-width: 350px;
     color: #ffffff;
     padding: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -278,13 +282,13 @@ button {
 /* this controls the appearance of the faq lower container */
 .dropdown_container {
     background-color: #FFDFB5;
-    max-width: 672px;
+    max-width: 650px;
     min-width: 350px;
     height: auto;
-    padding: 20px;
     margin-bottom: 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -293,7 +297,7 @@ button {
 .faq_text {
     font-size: 20px;
     text-align: left;
-    padding: 20px;
+    padding: 25px;
 }
 
 

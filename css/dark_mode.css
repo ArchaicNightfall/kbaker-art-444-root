@@ -65,8 +65,8 @@ body {
 }
 
 .mobile_menu_burger {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     position: fixed;
     top: left;
     left: 40px;
@@ -90,7 +90,7 @@ body {
 }
 
 .reveal_mtm {
-    display: flex !important;
+    display: none;
     position: fixed;
     width: 100%;
 }

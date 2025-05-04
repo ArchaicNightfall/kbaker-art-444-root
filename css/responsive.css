@@ -8,6 +8,21 @@
         display: none;
     }
 
+    button {
+        right: 50px;
+        top: 20px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+        
+    .d_switch {
+        right: 105px;
+    }
+        
+    .n_switch {
+        right: 55px;
+    }
+
     .mobile_menu_burger {
         display: inline-block;
         position: fixed;
@@ -28,10 +43,10 @@
     }
 
     .navigation {
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-}
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
 
     a:link, a:visited {
         font-size: 20px;
@@ -239,6 +254,21 @@
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 478px) {
+
+     button {
+        right: 40px;
+        top: 20px;
+        padding: 5px;
+        margin-top: 10px;
+    } 
+        
+    .d_switch {
+        right: 95px;
+    }
+        
+    .n_switch {
+        right: 45px;
+    }
 
     .mobile_menu_burger {
         display: inline-block;
