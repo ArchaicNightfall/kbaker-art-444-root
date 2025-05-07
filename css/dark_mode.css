@@ -226,10 +226,43 @@ button {
 .skill_svg_size {
     height: 75px;
     width: 75px;
-    padding-top: 20px;
+    padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* start svg sectioooon bullshittery */
+
+.paintbrush {
+    background-image: url(../images/paintbrush_dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.canvas {
+    background-image: url(../images/image_dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.camera {
+    background-image: url(../images/camera_dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.gear {
+    background-image: url(../images/gear_dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+/* end svg bullshittery */
 
 .h5_skill {
     font-size: 24px;

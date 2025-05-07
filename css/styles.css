@@ -152,6 +152,7 @@ button {
     z-index: 99;
 }
 
+
 .header_text {
     animation-name: fade_in;
     animation-duration: 2s;
@@ -227,10 +228,43 @@ button {
 .skill_svg_size {
     height: 75px;
     width: 75px;
-    padding-top: 20px;
+    padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* start svg sectioooon bullshittery */
+
+.paintbrush {
+    background-image: url(../images/paintbrush.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.canvas {
+    background-image: url(../images/image_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.camera {
+    background-image: url(../images/camera.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.gear {
+    background-image: url(../images/gear.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+/* end svg bullshittery */
 
 .h5_skill {
     font-size: 24px;
