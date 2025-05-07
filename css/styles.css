@@ -261,7 +261,34 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
 
+.photoshop {
+    background-image: url(../images/photoshop_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.indesign {
+    background-image: url(../images/indesign_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.clipstudio {
+    background-image: url(../images/clip_studio_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.blender {
+    background-image: url(../images/blender_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 /* end svg bullshittery */
