@@ -104,6 +104,7 @@ button {
     border-style: solid;
     border-color: #15294F;
     border-width: 2px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
     right: 90px;
     top: 20px;
     padding: 5px;
@@ -324,16 +325,16 @@ button {
     text-align: center;
 }
 
-
 .dropdown_toggle {
     background-color: #F7BC6E;
-    color: #3D527A;
     font-size: 32px;
-    max-width: 672px;
+    max-width: 650px;
     min-width: 350px;
+    color: #ffffff;
     padding: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -342,13 +343,13 @@ button {
 /* this controls the appearance of the faq lower container */
 .dropdown_container {
     background-color: #000000;
-    max-width: 672px;
+    max-width: 650px;
     min-width: 350px;
     height: auto;
-    padding: 20px;
     margin-bottom: 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -358,7 +359,7 @@ button {
     color:#ffffff;
     font-size: 20px;
     text-align: left;
-    padding: 20px;
+    padding: 25px;
 }
 
 

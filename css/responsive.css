@@ -9,18 +9,20 @@
     }
 
     button {
-        right: 50px;
-        top: 20px;
+        right: 30px;
+        top: 10px;
         padding: 5px;
         margin-top: 10px;
     }
         
     .d_switch {
-        right: 105px;
+        top: 25px;
+        right: 85px;
     }
         
     .n_switch {
-        right: 55px;
+        top: 25px;
+        right: 35px;
     }
 
     .mobile_menu_burger {
@@ -170,7 +172,6 @@
     
     .dropdown_toggle {
         font-size: 20px;
-        width: 520px;
         padding: 20px;
         align-items: center;
         margin-left: auto;
@@ -256,25 +257,31 @@
 @media only screen and (max-width: 478px) {
 
      button {
-        right: 40px;
-        top: 20px;
+        right: 15px;
+        top: 5px;
         padding: 5px;
         margin-top: 10px;
     } 
         
     .d_switch {
-        right: 95px;
+        top: 20px;
+        right: 70px;
     }
         
     .n_switch {
-        right: 45px;
+        top: 20px;
+        right: 20px;
     }
 
     .mobile_menu_burger {
         display: inline-block;
         position: fixed;
         padding-top: 10px;
-        z-index: 100
+        z-index: 100;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        position: fixed;
     }
 
     .reveal_mtm {
@@ -303,14 +310,6 @@
     .linebreak {
         height: 15px;
        
-    }
-
-    .mobile_menu_burger {
-        display: block;
-        width: 25px;
-        height: 25px;
-        left: 20px;
-        position: fixed;
     }
     
     .header {
@@ -421,7 +420,6 @@
 /* This is the toggle for the question, and appears as a bar when active*/
     .dropdown_toggle {
         font-size: 16px;
-        width: 350px;
         padding: 20px;
         align-items: center;
         margin-left: auto;
