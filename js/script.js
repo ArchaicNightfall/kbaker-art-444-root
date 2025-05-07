@@ -6,7 +6,7 @@ function menuOpen() {
     function darkMode() {
         // Select the <link> element
         let theme = document.getElementById("theme");
-    
+
         // Toggle between light.css and dark.css
         if (theme.getAttribute('href') == 'css/styles.css') {
             theme.setAttribute('href', 'css/dark_mode.css');

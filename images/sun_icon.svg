@@ -1,1 +1,41 @@
-<?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"/><circle cx="128" cy="128" fill="none" r="60" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="128" x2="128" y1="36" y2="16"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="62.9" x2="48.8" y1="62.9" y2="48.8"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="36" x2="16" y1="128" y2="128"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="62.9" x2="48.8" y1="193.1" y2="207.2"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="128" x2="128" y1="220" y2="240"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="193.1" x2="207.2" y1="193.1" y2="207.2"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="220" x2="240" y1="128" y2="128"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" x1="193.1" x2="207.2" y1="62.9" y2="48.8"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1.97 0 0 1.98 250.29 250.92)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 -94 113.25)"  >
+<path style="stroke: rgb(255,255,255); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-239, -335.25)" d="M 238.999 335.25 L 239.001 335.25" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<circle style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="60" />
+</g>
+		<g transform="matrix(1 0 0 1 0 -102)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="0" y1="10" x2="0" y2="-10" />
+</g>
+		<g transform="matrix(1 0 0 1 -72.15 -72.15)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="7.050000000000001" y1="7.050000000000001" x2="-7.050000000000001" y2="-7.050000000000001" />
+</g>
+		<g transform="matrix(1 0 0 1 -102 0)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="10" y1="0" x2="-10" y2="0" />
+</g>
+		<g transform="matrix(1 0 0 1 -72.15 72.15)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="7.050000000000001" y1="-7.049999999999997" x2="-7.050000000000001" y2="7.049999999999997" />
+</g>
+		<g transform="matrix(1 0 0 1 0 102)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="0" y1="-10" x2="0" y2="10" />
+</g>
+		<g transform="matrix(1 0 0 1 72.15 72.15)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-7.049999999999997" y1="-7.049999999999997" x2="7.049999999999997" y2="7.049999999999997" />
+</g>
+		<g transform="matrix(1 0 0 1 102 0)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-10" y1="0" x2="10" y2="0" />
+</g>
+		<g transform="matrix(1 0 0 1 72.15 -72.15)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-7.049999999999997" y1="7.050000000000001" x2="7.049999999999997" y2="-7.050000000000001" />
+</g>
+</g>
+</g>
+</svg>
