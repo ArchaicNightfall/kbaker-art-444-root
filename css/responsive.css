@@ -29,7 +29,9 @@
         display: inline-block;
         position: fixed;
         padding-top: 10px;
-        z-index: 100
+        z-index: 100;
+        width: 50px;
+        height: 50px;
     }
 
     .mobile_tablet_menu {
@@ -205,8 +207,14 @@
         object-fit: cover;
     }
     
-  
- 
+
+    /* modal Responsive */
+
+    .modal-content {
+        width: 100%;
+    }
+      
+      
     div.pair {
         display: flex;
         flex-direction: row;

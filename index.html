@@ -218,10 +218,9 @@
 
 <div class="pair">
     <div class="example_images">
-        <img src="images/Field.jpg" alt="A golden field of wheat with a curved river cutting through, 
-        there are snowy mountains and clouds in the background." class="picture"></img>
-      
-            <div class="description">
+        <img src="images/Field.jpg" id="gallery_image" alt="A golden field of wheat with a curved river cutting through, 
+        there are snowy mountains and clouds in the background." class="picture">
+           <div class="description">
             <ul>
                 <li class="gallery_title">Hikari</li>
                 <li class="gallery_dimen">12" x 8.5", Digital, 2016.</li>
@@ -235,8 +234,8 @@
     </div>
 
     <div class="example_images">
-        <img src="images/Pillars.jpg" alt="A valley with lush green grass, in the distance there are mountains 
-        with a silver monoliths with glowing blue glyphs, the foreground has a blurred pillar." class="picture"></img>
+        <img src="images/Pillars.jpg" id="gallery_image" alt="A valley with lush green grass, in the distance there are mountains 
+        with a silver monoliths with glowing blue glyphs, the foreground has a blurred pillar." class="picture">
         
                 <div class="description">
                 <ul>
@@ -254,8 +253,8 @@
 
 <div class="pair">
     <div class="example_images">
-        <img src="images/3-30-21_forest_sprint_WM.jpg" alt="depicts a character wearing a white mask that completely covers their face,
-         weilding switchblades in both hands as they sprint through a shadowy, misty forest in the light of a full moon."  class="picture"></img>
+        <img src="images/3-30-21_forest_sprint_WM.jpg"  id="gallery_image" alt="depicts a character wearing a white mask that completely covers their face,
+         weilding switchblades in both hands as they sprint through a shadowy, misty forest in the light of a full moon."  class="picture">
          
             <div class="description">
                 <ul>
@@ -270,9 +269,9 @@
     </div>
             
     <div class="example_images">
-        <img src="images/4-6-20_MVMT_2_twiver.jpg" alt="Depicts a person made of blue-green slime in a suit vest 
+        <img src="images/4-6-20_MVMT_2_twiver.jpg" id="gallery_image" alt="Depicts a person made of blue-green slime in a suit vest 
         and trousers in shades of blue,  vaulting over a ledge, the perspective has a fish-eye lense like old 
-        skateboarding videos. Two skyscrapers curve up to a blue sky with a square sun" class="picture"></img>
+        skateboarding videos. Two skyscrapers curve up to a blue sky with a square sun" class="picture">
            
             <div class="description">
                 <ul>
@@ -290,7 +289,7 @@
 <div class="pair">
     <div class="example_images">
         <img src="images/quick_landscape_1.jpg" alt="Despict a wooden spear staked in a grassy field with a tattered red ribbon
-        blowing in the wind to the right. The clouds in the background are puffy and in shades of yellow." class="picture"></img>
+        blowing in the wind to the right. The clouds in the background are puffy and in shades of yellow." class="picture">
           
             <div class="description">
                 <ul>
@@ -305,7 +304,7 @@
 
     <div class="example_images">
         <img src="images/forestcompass.jpg" alt="In dark blue forest, beams of gold light emit from the sillhouette of a curled up rabbit
-        in a bubble of orange energy." class="picture"></img>
+        in a bubble of orange energy." class="picture">
 
             <div class="description">
                 <ul>
@@ -321,8 +320,8 @@
 
 <div class="pair">
     <div class="example_images">
-        <img src="images/Shadowed_Mountain.jpg" alt="A grass and moss covered mountain peak illuminated in a soft yellow-gray light, 
-        in the background, there's a larger mountain shrouded by fog." class="picture"></img>
+        <img src="images/Shadowed_Mountain.jpg" id="gallery_image" alt="A grass and moss covered mountain peak illuminated in a soft yellow-gray light, 
+        in the background, there's a larger mountain shrouded by fog." class="picture">
            
             <div class="description">
                 <ul>
@@ -336,8 +335,8 @@
     </div>
 
     <div class="example_images">
-        <img src="images/Shade_dawn.jpg" alt="In a dull peach and blue palette, fluffy clouds are light peach in the foreground
-        grow into deeper shades of purple, with trailing wisps of clouds." class="picture"></img>
+        <img src="images/Shade_dawn.jpg" id="gallery_image" alt="In a dull peach and blue palette, fluffy clouds are light peach in the foreground
+        grow into deeper shades of purple, with trailing wisps of clouds." class="picture">
             
                 <div class="description">
                     <ul>
@@ -350,6 +349,7 @@
                 </div>
     </div>
 </div>
+
 </section>
 
     <!--Copyright Section-->
@@ -360,6 +360,7 @@
     </section>
 
 <script>
+    
 
     //darkmode
 function darkMode() {
@@ -372,8 +373,33 @@ function darkMode() {
     } else {
         theme.setAttribute('href', 'css/styles.css');
     }
-}
-   
+}   
+
+//lightbox   
+const lightbox = document.createElement('div')
+        lightbox.id = 'lightbox'
+        document.body.appendChild(lightbox)
+    
+    const images = document.querySelectorAll('.picture')
+    images.forEach(image => {
+        image.addEventListener('click', e => {
+            lightbox.classList.add('active')
+            const img = document.createElement('img')
+            img.src = image.src
+            while (lightbox.firstChild) {
+                lightbox.removeChild(lightbox.firstChild)
+            }
+            lightbox.appendChild(img)
+        })
+    })
+
+    //So you can click out of it
+    lightbox.addEventListener('click', e => {
+        if (e.target !==e.currentTarget) return
+        lightbox.classList.remove('active')
+})
+
+// bluh
    var DarkMode = new DarkMode({
     dark: "css/dark_mode.css",
     startAt: '18:00',

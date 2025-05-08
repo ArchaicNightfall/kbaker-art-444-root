@@ -64,8 +64,8 @@ body {
 }
 
 .mobile_menu_burger {
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     top: left;
     left: 40px;
@@ -394,6 +394,26 @@ div.example_images {
     margin-bottom: 25px;
 }
 
+/* start Lightbox Section */
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Lightbox Section*/
+
 /* This controls the size of the title */
 .gallery_title {
     font-size: 36px;
@@ -433,167 +453,3 @@ div.description {
     0% {opacity: 0}
     100% {opacity: 1}
 }
-
-
-/* Start Dark Mode Section 
-
-nav.darkmode {
-    background-color: #3D527A;
-}
-
-a.darkmode:link, a.darkmode:visited {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 24px;
-    cursor: auto;
-    padding: 44px;
-  }
-  
-  a.darkmode:hover {
-    color: #F7BC6E;
-    transition-duration: .3s;
-  }
-
-  a:link:active, a:visited:active {
-    color: (internal value);
-  }
-
-body.darkmode {
-    background-color: #15294F;
-}
-
-
-.linebreak_darkmode {
-    background-color: #6493EA;
-    width: 100%; 
-    height: 30px;
-   
-}
-
-.mobile_tablet_menu_darkmode {
-    background-color: #FFDFB5;
-    display: none;
-}
-
-.mobile_tablet_menu_darkmode a:hover {
-    transition: none;
-}
-
-.link_padding_darkmode  {
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header_darkmode {
-    color: #48628B;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(44, 22, 115, 0.25);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background-image: url(../images/Orange_inversion_web.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    width: auto;
-    height: 515px; 
-}
-
-.header_text_darkmode  {
-    animation-name: fade_in;
-    animation-duration: 2s;
-}
-
-.header_image_darkmode  {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    border: 4px solid#F7BC6E;
-    box-shadow: 0px 8px 4px 0px rgba(44, 22, 115, 0.25);
-    animation-name: fade_in;
-    animation-duration: 2s;
-    color:#ffffff;
-}
-
-.about_text_darkmode  {
-    color:#ffffff;
-}
-
-.h_spacing_darkmode  {
-    color: #ffffff;
-}
-
-
-.header_h3_darkmode  {
-    color: #ffffff;
-}
-
-
-.header_h4_darkmode  {
-    color: #FFffff;
-}
-
-.about_image_darkmode  {
-    width:325px;
-    height:325px;
-    border-radius:50%;
-    border: 5px solid #ffffff;
-}
-
-.skills_darkmode  {
-    background-color: #38302B;
-}
-
-
-.skill_box_darkmode  {
-    background-color: #000000;
-    color:#ffffff;
-}
-
-
-.dropdown_toggle_darkmode  {
-    background-color: #F7BC6E;
-    color: #3D527A;
-}
-
-.dropdown_container_darkmode  {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-
-.commissions_darkmode  {
-    background-color: #38302B;
-}
-
-
-div.example_images_darkmode  {
-    background-color: #000000;
-}
-
-.gallery_title_darkmode  {
-    color: #ffffff;
-}
-
-
-.gallery_dimen_darkmode  {
-    color: #ffffff;
-}
-
-
-.gallery_desc_darkmode  {
-    color: #ffffff;
-}
-
-
-div.description_darkmode  {
-    padding: 10px;
-}
-
-.copyright_darkmode  {
-    background-color: #3D527A;
-    color: #ffffff;
-}
-
- /* End Dark Mode Section */
