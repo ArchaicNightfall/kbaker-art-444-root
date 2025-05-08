@@ -11,16 +11,16 @@ nav {
 }
 
 h3 {
-    font-family: Britannic;
-    src: url(../fonts/Britannic_Bold.ttf);
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Bold.ttf);
     margin: 0;
     text-align: center;
     font-size: 48px;
 }
 
 h1, h2, h4, h5{
-    font-family: Britannic;
-    src: url(../fonts/Britannic_Bold.ttf);
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Bold.ttf);
     margin: 0;
     padding: 0;
 
@@ -427,6 +427,8 @@ div.example_images {
 
 /* This controls the size of the title */
 .gallery_title {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Bold.ttf);
     font-size: 36px;
     color: #ffffff;
 }
