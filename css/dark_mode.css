@@ -376,6 +376,7 @@ button {
     object-fit: cover;
 }
 
+
 /* This is for how the gallery images display, and their padding*/
 div.pair {
     display: flex;
@@ -393,6 +394,33 @@ div.example_images {
     background-color: #000000;
     margin-bottom: 25px;
 }
+
+/* start Lightbox Section */
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+#lightbox img {
+    border-radius: 20px;
+    border: 4px solid #5e87c8;
+    height: auto;
+    width: auto;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Lightbox Section*/
 
 /* This controls the size of the title */
 .gallery_title {

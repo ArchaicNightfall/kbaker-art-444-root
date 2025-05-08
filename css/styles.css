@@ -406,6 +406,13 @@ div.example_images {
     display: none;
 }
 
+#lightbox img {
+    border-radius: 20px;
+    border:4px solid #F7BC6E;
+    height: auto;
+     width: auto;
+}
+
 #lightbox.active {
     display: flex;
     justify-content: center;
