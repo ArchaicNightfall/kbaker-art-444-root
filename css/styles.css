@@ -11,12 +11,16 @@ nav {
 }
 
 h3 {
+    font-family: Britannic;
+    src: url(../fonts/Britannic_Bold.ttf);
     margin: 0;
     text-align: center;
     font-size: 48px;
 }
 
 h1, h2, h4, h5{
+    font-family: Britannic;
+    src: url(../fonts/Britannic_Bold.ttf);
     margin: 0;
     padding: 0;
 
@@ -134,6 +138,11 @@ button {
     background: #F7BC6E;
     border-radius: 40px;
     z-index: 100;
+    
+}
+
+@keyframes day_move {
+
 }
 
 
@@ -330,12 +339,9 @@ button {
     background-color: #48628B;
     font-size: 32px;
     max-width: 650px;
-    min-width: 350px;
     color: #ffffff;
     padding: 20px;
     border-radius: 20px;
-    /* border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -349,8 +355,6 @@ button {
     height: auto;
     margin-bottom: 40px;
     border-radius: 20px;
-    /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -409,8 +413,8 @@ div.example_images {
 #lightbox img {
     border-radius: 20px;
     border:4px solid #F7BC6E;
-    height: auto;
-     width: auto;
+    height: 450px;
+    width: auto;
 }
 
 #lightbox.active {
@@ -449,11 +453,13 @@ div.description {
 
 .copyright {
     background-color: #F7BC6E;
+    color:#48628B;
     padding-top: 44px;
     padding-bottom: 44px;
     padding-left: 20px;
     position: bottom;
     text-align: center;
+    font-size: 24px;
 }
 
 @keyframes fade_in {

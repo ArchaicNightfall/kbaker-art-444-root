@@ -11,6 +11,8 @@ nav {
 }
 
 h3 {
+    font-family: Britannic;
+    src: url(../fonts/Britannic_Bold.ttf);
     margin: 0;
     text-align: center;
     font-size: 48px;
@@ -18,6 +20,8 @@ h3 {
 }
 
 h1, h2, h4, h5{
+    font-family: Britannic;
+    src: url(../fonts/Britannic_Bold.ttf);
     margin: 0;
     padding: 0;
 
@@ -333,8 +337,6 @@ button {
     color: #ffffff;
     padding: 20px;
     border-radius: 20px;
-    /* border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -348,8 +350,6 @@ button {
     height: auto;
     margin-bottom: 40px;
     border-radius: 20px;
-    /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -410,7 +410,7 @@ div.example_images {
 #lightbox img {
     border-radius: 20px;
     border: 4px solid #5e87c8;
-    height: auto;
+    height: 450px;
     width: auto;
 }
 
@@ -457,6 +457,7 @@ div.description {
     padding-left: 20px;
     position: bottom;
     text-align: center;
+    font-size: 24px;
 }
 
 @keyframes fade_in {

@@ -191,7 +191,7 @@
     /* this controls the text in the FAQ container */
     .faq_text {
         font-size: 16px;
-        padding: 10px;
+        padding: 15px;
     
     }
     
@@ -207,13 +207,6 @@
         object-fit: cover;
     }
     
-
-    /* modal Responsive */
-
-    .modal-content {
-        width: 100%;
-    }
-      
       
     div.pair {
         display: flex;
@@ -445,7 +438,7 @@
     /* this controls the text in the FAQ container */
     .faq_text {
         font-size: 14px;
-        padding: 10px;
+        padding: 15px;
     
     }
     
@@ -473,6 +466,11 @@
         height: auto;  
         margin-right: auto;
         margin-left: auto;
+    }
+
+    #lightbox img {
+        height: 250px;
+        width: auto;
     }
     
     /* This controls the size of the title */
