@@ -33,6 +33,8 @@ li, ul, ol {
 }
 
 a:link, a:visited {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Bold.ttf);
     color: #000000;
     text-decoration: none;
     font-size: 24px;
@@ -226,6 +228,8 @@ button {
 
 
 .about_text {
+    font-family: sans-serif;
+    src: url(../fonts/Montserrat_Regular.ttf);
     font-size: 20px;
     width: 530px;
     padding-left: 20px;
@@ -361,6 +365,8 @@ button {
 
 /* this controls the text in the FAQ container */
 .faq_text {
+    font-family: sans-serif;
+    src: url(../fonts/Montserrat_Regular.ttf);
     font-size: 20px;
     text-align: left;
     padding: 25px;
@@ -435,6 +441,8 @@ div.example_images {
 
 /* This controls the image info text */
 .gallery_dimen {
+    font-family: sans-serif;
+    src: url(../fonts/Montserrat_Italic.ttf);
     font-size: 20px;
     color: #ffffff;
     padding-top: 5px;
@@ -443,6 +451,8 @@ div.example_images {
 
 /* this controls the size and color of gallery descriptions */
 .gallery_desc {
+    font-family: sans-serif;
+    src: url(../fonts/Montserrat_Regular.ttf);
     font-size: 16px;
     color: #ffffff;
     padding-top: 5px;
