@@ -27,6 +27,8 @@ h1, h2, h4, h5{
 }
 
 li, ul, ol {
+    font-family: sans-serif;
+    src: url(../fonts/Montserrat_Regular.ttf);
     list-style-type: none;
     margin: 0;
     padding: 0;
