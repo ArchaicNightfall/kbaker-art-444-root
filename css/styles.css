@@ -386,6 +386,7 @@ button {
     max-height:350px;
     min-width: 175px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 /* This is for how the gallery images display, and their padding*/
